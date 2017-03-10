@@ -1,4 +1,10 @@
 .imagem-depoimento {
 	width: 20%;
-	border-radius: 50%; 
+	border-radius: 50%;
+	/*margin-bottom: 30%; */
+}
+
+.depoimento {
+	margin-bottom: 10%;
+	color: #564c4c;
 }

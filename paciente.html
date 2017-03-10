@@ -17,15 +17,18 @@
 		<body>
 			<!-- CABEÇALHO COM LOGO E MENU -->
 			<nav class="navbar navbar-static-top">
-				<div class="container	">
+				<div class="container">
 					<div class="navbar-header">
 						<img src="images/logo.png" class="logotipo"></img>
 					</div>
 					<ul class="nav navbar-nav logotipo-espacamento">
-						<li> <a href="" class="item-menu"> Home </a> </li>
-						<li> <a href="" class="item-menu"> Pontos positivos </a> </li>
-						<li> <a href="" class="item-menu"> Passos </a> </li>
-						<li> <a href="" class="item-menu"> Sou Profissional </a> </li>
+						<li> <a href="#home" class="item-menu">Home</a> </li>
+						<li> <a href="#beneficios" class="item-menu">Benefícios</a> </li>
+						<li> <a href="#comofunciona" class="item-menu">Como funciona</a> </li>
+						<li> <a href="#quemsomos" class="item-menu">Quem somos</a> </li>
+						<li> <a href="#depoimentos" class="item-menu">Depoimentos</a> </li>
+						<li> <a href="#contato" class="item-menu">Contato</a> </li>
+						<li> <a href="#souprofissional" class="item-menu">Sou Profissional</a> </li
 					</ul>
 				</div>
 			</nav>
@@ -61,7 +64,7 @@
 			</div>
 
 			<!-- IMAGEM COM AS VANTAGENS DO SITE -->
-			<div class="vantagens-container">
+			<div id="beneficios" class="vantagens-container">
 				<div class="vantagem-item">
 					<img src="images/vantagens/dinheiro.png"></img>
 					<h1 class="vantagem-item-cabecalho">Menor Preço</h1>
@@ -90,7 +93,7 @@
 			</div>
 
 			<!-- IMAGEM COM OS PASSOS DA CONSULTA -->
-			<div class="passos-container">
+			<div id="comofunciona" class="passos-container">
 				<div class="passo-item">
 					<img src="images/passos/primeiro.png"></img>
 					<h1 class="passo-item-cabecalho">Clique em "marcar consulta"</h1>
@@ -119,7 +122,7 @@
 			</div>
 
 			<!-- IMAGEM QUEM SOMOS -->
-			<div class="quem-somos-container">
+			<div id="quemsomos" class="quem-somos-container">
 				<div class="quem-somos-item">
 					<hr class="quem-somos-item-linha">
 					<h1 class="quem-somos-item-titulo">QUEM SOMOS</h1>
@@ -132,20 +135,20 @@
 					<p>Somos uma plataforma totalmente online que conecta profissionais da saúde com pacientes.</p>
 					<p>Trabalhamos para facilitar a vida de nossos usuários por meio de agendamentos fáceis, rápidos e com menor preço.</p>
 				</div>
-				<img class="quem-somos-imagem" src="images/somos.jpg"></img>
+				<img class="quem-somos-imagem" src="images/quemsomos.jpeg"></img>
 			</div>
 
 			<!-- DEPOIMENTOS -->
-			<div id="Carrossel" class="carousel slide" data-ride="carousel" data-interval="2000">
+			<div id="depoimentos" class="carousel slide" data-ride="carousel" data-interval="2000">
 		      <ol class="carousel-indicators">
-		        <li data-target="#Carrossel" data-slide-to="0" ></li>
-		        <li data-target="#Carrossel" data-slide-to="1" class="active"></li>
-		        <li data-target="#Carrossel" data-slide-to="2"></li>
+		        <li data-target="#depoimentos" data-slide-to="0" class="active"></li>
+		        <li data-target="#depoimentos" data-slide-to="1" ></li>
+		        <li data-target="#depoimentos" data-slide-to="2"></li>
 		      </ol>
 		      <div class="carousel-inner">
 		        <div class="item active">
 		          <img src="images/carousel/fundo.jpeg">
-		          <div class="carousel-caption">
+		          <div class="carousel-caption depoimento">
 		            <img class="imagem-depoimento" src="images/carousel/pessoa1.jpeg">
 		            <h3>Fernanda Goss, 35</h3>
 		            <h3>Advogada</h3>
@@ -154,16 +157,16 @@
 		        </div>
 		        <div class="item">
 		          <img src="images/carousel/fundo.jpeg">
-					<div class="carousel-caption">
+					<div class="carousel-caption depoimento">
 					  <img class="imagem-depoimento" src="images/carousel/pessoa2.jpeg">
 		              <h3>Marina Espíndola, 21</h3>
 		              <h3>Estudante</h3>
-		              <p></p>>Acredito que a nova plataforma trará uma facilidade para termos mais e um melhor conhecimento sobre médicos que iremos consultar, por meio das indicações e comentários sobre tal. Mostrará outros especialistas o qual poderemos nos identificar mais. Também acredito que será mais ágil para marcar uma consulta de acordo com as necessidades e preferências de cada um (localização, valores, perfil do médico), trazendo maior conforto e segurança na hora de escolher quem irá cuidar da nossa saúde.</p>
+		              <p></p>Acredito que a nova plataforma trará uma facilidade para termos mais e um melhor conhecimento sobre médicos que iremos consultar, por meio das indicações e comentários sobre tal. Mostrará outros especialistas o qual poderemos nos identificar mais. Também acredito que será mais ágil para marcar uma consulta de acordo com as necessidades e preferências de cada um (localização, valores, perfil do médico), trazendo maior conforto e segurança na hora de escolher quem irá cuidar da nossa saúde.</p>
 		          </div>	
 		        </div>
 		        <div class="item">
 		          <img src="images/carousel/fundo.jpeg">
-		          <div class="carousel-caption">
+		          <div class="carousel-caption depoimento">
 		          	  <img class="imagem-depoimento" src="images/carousel/pessoa3.jpeg">
 		              <h3>Nei Charles, 24</h3>
 		              <h3>Analista de TI</h3>
@@ -171,24 +174,30 @@
 		          </div>
 		        </div>
 		      </div>
-		      <a class="left carousel-control" href="#Carrossel" data-slide="prev">
+<!-- 		      <a class="left carousel-control" href="#Carrossel" data-slide="prev">
 		        <span class="glyphicon glyphicon-chevron-left"></span>
 		      </a>
 		      <a class="right carousel-control" href="#Carrossel" data-slide="next">
-		        <span class="glyphicon glyphicon-chevron-right"></span>
+		        <span class="glyphicon glyphicon-chevron-right"></span> -->
 		      </a>
 		    </div>
 
 
-			<div class="contato-container">
+			<div id="contato" class="contato-container">
 				<div class="contato-primeira-linha">
-					<input class="contato-campo-nome" type="text" name="nome"></input>
-					<input class="contato-campo-email" type="text" name="email"></input>	
+					<input class="contato-campo-nome" type="text" name="nome" placeholder="Nome"></input>
+					<input class="contato-campo-email" type="text" name="email" placeholder="E-mail"></input>	
 				</div>
-					<input class="contato-campo-assunto" type="text" name="assunto"></input>
-					<input class="contato-campo-mensagem" type="text" name="mensagem"></input>
+					<input class="contato-campo-assunto" type="text" name="assunto" placeholder="Assunto"></input>
+					<input class="contato-campo-mensagem" type="text" name="mensagem" placeholder="Mensagem"></input>
+				<button class="contato-enviar">Enviar</button>	
 			</div>
 
+			<footer class="endereco">
+				<h2>Endereço</h2>
+				<p class="endereco-texto">Rua Saldanha Marinho, 196</p>
+				<p class="endereco-texto">Centro - Florianópolis, SC 88010-450</p>
+			</footer>
 
 		</body>
 

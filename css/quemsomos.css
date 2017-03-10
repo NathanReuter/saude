@@ -1,6 +1,6 @@
 .quem-somos-container {
-	margin-top: 10%;
-	margin-bottom: 10%;
+	/*margin-top: 10%;*/
+	/*margin-bottom: 10%;*/
 	height: 80%;
 	/*background-color: gray;*/
 }
@@ -16,7 +16,7 @@
 	width: 60%;
 	float: right;
 	/*REMOVER ISSO AQUI DEPOIS QUE TROCAR POR UMA IMAGEM MAIOR*/
-	height: 100%; 
+	height: 110%; 
 }
 
 .quem-somos-item-cabecalho {
