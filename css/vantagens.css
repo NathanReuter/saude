@@ -1,0 +1,22 @@
+.vantagens-container {
+	height: 45%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.vantagem-item {
+	width: 14.28%;
+	text-align: center;
+	font-size: 110%;
+	float: left;
+	margin-left: 5%;	 
+}
+
+.vantagem-item-cabecalho {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.vantagem-item img {
+	width: 70%;
+}

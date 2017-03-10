@@ -1,6 +1,6 @@
 TODO
 
-tela inicial
-tela login
-tela com resultados
-tela com dados do paciente
+* tela inicial do médico
+* tela inicial do paciente
+* tela com resultados da pesquisa
+* tela com perfil e informações do paciente

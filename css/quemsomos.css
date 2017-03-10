@@ -1,0 +1,36 @@
+.quem-somos-container {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	height: 80%;
+	/*background-color: gray;*/
+}
+
+.quem-somos-item {
+	width: 29%;
+	margin-left: 10%;
+	margin-right: 1%;
+	float: left;
+}
+
+.quem-somos-imagem {
+	width: 60%;
+	float: right;
+	/*REMOVER ISSO AQUI DEPOIS QUE TROCAR POR UMA IMAGEM MAIOR*/
+	height: 100%; 
+}
+
+.quem-somos-item-cabecalho {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.quem-somos-item-titulo {
+	font-size: 380%;
+	font-weight: bold;
+}
+
+.quem-somos-item-linha {
+	width: 15%;
+	border-width: 2px;
+	color: black; 
+}

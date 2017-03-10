@@ -1,0 +1,26 @@
+.contato-container {
+	/*border: 2px solid;*/
+	height: 100%;
+	/*background-image: (images/fundo-formulario.jpeg);*/
+	background-color: #508ab3;
+}
+
+.contato-campo-nome {
+	width: 40%;
+}
+
+.contato-campo-email {
+	width: 40%;
+}
+
+.contato-campo-assunto {
+	width: 80%;
+}
+
+.contato-campo-mensagem {
+	width: 80%;
+}
+
+.contato-primeira-linha {
+	border: 2px solid;
+}
