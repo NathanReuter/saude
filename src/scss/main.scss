@@ -1,7 +1,11 @@
 /* Main SCSS with all the imports */
 
-// Local Files
-@import "./css/app",
+// Local Components Files
+@import "variables",
+        "fonts";
+
+// Local APP Files
+@import "app",
         "./css/contato",
         "./css/depoimentos",
         "./css/passos",

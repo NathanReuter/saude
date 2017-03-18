@@ -261,7 +261,8 @@ module.exports = function (grunt) {
             },
             sass: {
                 files: [
-                    '<%= config.app %>/scss/**/*.scss'
+                    '<%= config.app %>/scss/**/*.scss',
+                    '<%= config.app %>/scss/**/*.css'
                 ],
                 tasks: ['sass:build',
                     'copy:build']

@@ -1,0 +1,89 @@
+.imagem-principal {
+	width: 100%;
+	height: 100%;
+}
+
+.header-logotipo {
+	margin-top: 20px;
+}
+
+.logotipo {
+	height: 45px;
+}
+
+.logotipo-espacamento {
+	margin-left: 20%;
+}
+
+.navbar {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.campos-pesquisa {
+	/*position: absolute;*/
+	/*text-align: center;*/
+	position: absolute;
+	top: 350px;
+	left: 300px;
+}
+
+.titulo-pesquisa {
+	font-size: 300%;
+	color: white;
+}
+
+.subtitulo-pesquisa {
+	font-size: 150%;
+	width: 80%;
+	color: white;
+}
+
+.lista-pesquisa li {
+	display: inline;
+	padding-left: 0px;
+}
+
+.lista-pesquisa {
+	padding-left: 0px;
+
+	.col-sm-3 {
+		padding: 0 2px;
+	}
+}
+
+.lista-cabecalho li {
+	display: inline;
+}
+
+
+.pesquisa {
+	width: 100%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	opacity: 0.9;
+}
+
+.botao-pesquisar {
+	background-color: $silver;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	&:hover {
+		background-color: lighten($silver, 10%)
+	}
+}
+
+.principal {
+	padding: 0;
+}
